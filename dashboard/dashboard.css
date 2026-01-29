@@ -200,7 +200,7 @@
 
 .posts-container > .create-post > .post-button {
   flex: 1;
-  /* border-radius: 30px;
+  border-radius: 30px;
   border: none;
   outline: none;
   background-color: #f0f2f5;
@@ -296,4 +296,4 @@
   font-size: 14px;
   background: linear-gradient(to top, #000, #00000000);
   width: 100%;
-} */
+}
