@@ -146,44 +146,44 @@ createStoryHTMLThroughMap();
 
 const students = [
     {
-//         name: "",
-//         id: "",
-//         semesters: {
-//             1: {
-//                 maths: 80,
-//                 chem: 70,
-//                 programming: 83,
-//             },
-//             2: {
-//                 maths: 70,
-//                 phy: 67,
-//                 javascript: 83,
-//             },
-//         },
-//     },
-// ];
+        name: "",
+        id: "",
+        semesters: {
+            1: {
+                maths: 80,
+                chem: 70,
+                programming: 83,
+            },
+            2: {
+                maths: 70,
+                phy: 67,
+                javascript: 83,
+            },
+        },
+    },
+];
 
-// const studentsCalculated = [
-//     {
-//         name: "",
-//         id: "",
-//         semesters: {
-//             1: {
-//                 maths: 80,
-//                 chem: 70,
-//                 programming: 83,
-//             },
-//             2: {
-//                 maths: 70,
-//                 phy: 67,
-//                 javascript: 83,
-//             },
-//         },
-//         semester1: "",
-//         obtainedMarks: "",
-//         percentage: "",
-//         grade: "",
-//     },
+const studentsCalculated = [
+    {
+        name: "",
+        id: "",
+        semesters: {
+            1: {
+                maths: 80,
+                chem: 70,
+                programming: 83,
+            },
+            2: {
+                maths: 70,
+                phy: 67,
+                javascript: 83,
+            },
+        },
+        semester1: "",
+        obtainedMarks: "",
+        percentage: "",
+        grade: "",
+    },
 ];
 
 // How to calculate percentage:
