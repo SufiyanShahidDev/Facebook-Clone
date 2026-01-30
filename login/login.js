@@ -29,21 +29,21 @@ const loginHandler = () => {
     for (let i = 0; i < dataOfLocalStorage.length; i++) {
         let user = dataOfLocalStorage[i]
 
-        if (user?.email === emailValue) {
-            isAccountExist = true
+        // if (user?.email === emailValue) {
+        //     isAccountExist = true
 
-            // if (user?.password == passwordValue) {
+        //     // if (user?.password == passwordValue) {
 
-            //     alert("Login Successfully, You have Successfully Login to your Account!")
-            //     window.location.href = "../dashboard/index.html";
-            // } else {
-            //     sweetAlert(
+        //     //     alert("Login Successfully, You have Successfully Login to your Account!")
+        //     //     window.location.href = "../dashboard/index.html";
+        //     // } else {
+        //     //     sweetAlert(
 
-            //         "error",
-            //         "Login Error",
-            //         "Please enter correct password!",
-            //     )
-            // }
+        //     //         "error",
+        //     //         "Login Error",
+        //     //         "Please enter correct password!",
+        //     //     )
+        //     // }
             break;
         }
     }
