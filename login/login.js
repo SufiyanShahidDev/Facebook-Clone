@@ -34,9 +34,9 @@ const loginHandler = () => {
             if (user?.password == passwordValue) {
                 localStorage.setItem("userData", JSON.stringify(user));
                 alert("Login Successfully");
-                window.location.href = "/dashboard";
+                window.location.href = "../dashboard/index.html";
             } else {
-                sweety("error", "Login Error", "Please enter correct password!");
+                sweetAlert("error", "Login Error", "Please enter correct password!");
             }
 
 
