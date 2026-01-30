@@ -30,20 +30,31 @@ const loginHandler = () => {
         let user = dataOfLocalStorage[i]
 
         // if (user?.email === emailValue) {
-        //     isAccountExist = true
+        //     isAccountExists = true;
+        //     if (user?.password == passwordValue) {
+        //         localStorage.setItem("userData", JSON.stringify(user));
+        //         alert("Login Successfully");
+        //         window.location.href = "/dashboard";
+        //     } else {
+        //         sweety("error", "Login Error", "Please enter correct password!");
+        //     }
 
-        //     // if (user?.password == passwordValue) {
 
-        //     //     alert("Login Successfully, You have Successfully Login to your Account!")
-        //     //     window.location.href = "../dashboard/index.html";
-        //     // } else {
-        //     //     sweetAlert(
+            // if (user?.email === emailValue) {
+            //     isAccountExist = true
 
-        //     //         "error",
-        //     //         "Login Error",
-        //     //         "Please enter correct password!",
-        //     //     )
-        //     // }
+            //     // if (user?.password == passwordValue) {
+
+            //     //     alert("Login Successfully, You have Successfully Login to your Account!")
+            //     //     window.location.href = "../dashboard/index.html";
+            //     // } else {
+            //     //     sweetAlert(
+
+            //     //         "error",
+            //     //         "Login Error",
+            //     //         "Please enter correct password!",
+            //     //     )
+            //     // }
             break;
         }
     }
