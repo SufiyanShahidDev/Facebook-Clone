@@ -9,7 +9,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="dashboard.css">
     <title>Facebook | Dashboard</title>
-    <link rel="stylesheet" href="../global.css">
 </head>
 
 <body>
@@ -79,6 +78,7 @@
                     Friends
                 </div>
             </div>
+
             <div class="center-layout">
                 <div class="posts-container">
 
@@ -119,19 +119,20 @@
 
                     </div>
 
+
                     <div class="post-container" id="post-container">
-                        <div class="post">
+                        <!-- <div class="post">
                             <div class="post-header">
-                                <div>
+                                <div class="profile-content">
                                     <div class="profile-pic">
                                         <img src="https://i.pravatar.cc/150?img=1" alt="">
                                     </div>
-                                    <div>
-                                        <p>Emma Johnson</p>
+                                    <div class="post-user-detail">
+                                        <p id="name">Emma Johnson</p>
                                         <p>29 Jan, 2026 9:06</p>
                                     </div>
                                 </div>
-                                <div>
+                                <div class="post-icons">
                                     <i class="fa-solid fa-ellipsis"></i>
                                     <i class="fa-solid fa-xmark"></i>
                                 </div>
@@ -166,16 +167,19 @@
                                     <i class="fa-regular fa-share-from-square"></i> Share
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+                        
                     </div>
 
                 </div>
             </div>
+
             <div class="chats">right</div>
         </div>
     </div>
 
+    <script src="../authentication/authenticate.js"></script>
+    <script src="dashboard.js"></script>
 </body>
-<script src="../authentication/authenticate.js"></script>
-<script src="dashboard.js"></script>
+
 </html>
