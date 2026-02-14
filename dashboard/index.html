@@ -18,7 +18,9 @@
                 <img src="../assets/fblogo.avif" alt="">
                 <div class="search-input">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" placeholder="Search Facebook">
+                    <input type="text" placeholder="Search Facebook" id="searchInput">
+
+                    <button id="searchBtn">Search</button>
                 </div>
             </div>
 
@@ -88,7 +90,7 @@
                             <i class="fa-regular fa-user"></i>
                         </div>
 
-                        <button class="post-button">
+                        <button class="post-button" id="createPost">
                             What's on your mind, Kevin?
                         </button>
 
@@ -176,6 +178,28 @@
 
             <div class="chats">right</div>
         </div>
+    </div>
+
+    <!-- Create post dialogue -->
+
+    <div class="create-post-dialogue-overlay" id="post">
+        <form id="create-post-form">
+            <div class="header">
+                <p>Create Post</p>
+
+                <i class="fa-solid fa-xmark" id="close"></i>
+
+            </div>
+
+            <div class="create-post-content">
+                <div class="username">
+                    <p id="loggedin-username"></p>
+                </div>
+                <textarea name="" id="caption"></textarea>
+                <input type="text" id="image-url" />
+                <button>Post</button>
+            </div>
+        </form>
     </div>
 
     <script src="../authentication/authenticate.js"></script>
